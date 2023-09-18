@@ -1,0 +1,403 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("images/blue_bg.png");
+    align-items: center;
+    padding: 40px 90px 0;
+    
+    
+
+}
+
+.navbar .nav-one  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar .nav-one .mo {
+   text-decoration: none;
+   margin: 0 30px 0;
+   position: relative;
+   color: rgb(103, 112, 102);text-transform: capitalize;
+   transition: 0.3s;
+   -webkit-transition: 0.3s;
+   -moz-transition: 0.3s;
+   -ms-transition: 0.3s;
+   -o-transition: 0.3s;
+   padding: 0 5px;
+   font-size: large;
+}
+
+.navbar .nav-one .mo::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+  height: 3px;
+  width: 0%;
+  background-color:rgb(48, 2, 35);
+  bottom: -7px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.navbar .nav-one .mo:hover {
+    color: black;
+}
+
+.navbar .nav-one .mo:hover::before {
+    width: 100%;
+}
+
+.navbar .nav-two {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav-two button {
+    position: absolute;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    color: rgb(103, 112, 102);
+}
+
+/* end nav */
+/* satrt section */
+
+.sec {
+    background-image: url("images/blue_bg.png");
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-size: 100% 100%;
+    padding-top: 0;
+    margin-top: 0;
+    color: rgb(103, 112, 102);
+    
+}
+
+.sec .container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec .container .child-one {
+    width: 50%;
+    margin-top: 170px;
+    margin-left: -70px;
+}
+
+.sec .container .child-two {
+    width:50% ;
+    height: 700px;
+    position: relative;
+    top: 50px;
+    margin-left: -300px;
+}
+
+.sec .container .child-one span {
+    color: rgb(106, 18, 115);
+}
+
+.sec .container .child-one p {
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.sec .container .child-one h2 {
+    font-size: 37px;
+    width: 100%;
+    color: rgb(103, 112, 102);
+}
+
+.sec .container .child-two img {
+    position: absolute;
+} 
+.container .child-two .momo {
+    width: 100%;
+    height: 100%;
+    bottom: -5%;
+    
+}
+.container .child-two .toto {
+    width: 40%;
+    height: 63%;
+    left: 25%;
+    bottom: 25%;
+}
+.container .child-two .nono {
+    width: 60%;
+    height: 35%;
+    left: 20%;
+    bottom: 0%;
+}
+
+.container .child-two .soso {
+    position: absolute;
+     width: 1000px;
+    height: 30%;
+    top: 78%;
+    right:50% ;
+    
+    
+}
+
+/* end sec 1 */
+/* start sec 2 */
+
+.sec-two {
+    background-color: white;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    margin-top: 150px;
+
+}
+
+.sec-two .child-one img {
+    position: absolute;
+    width: 60%;
+    top: 0px;
+    left: 300px;
+
+}
+
+.sec-two .child-two {
+    text-align: center;
+    position: absolute;
+    top: 90px;
+    left: 160px;
+    line-height: 25px;
+
+}
+
+.sec-two .child-three {
+    text-align: center;
+    position: absolute;
+    top: 210px;
+    left:600px ;
+    line-height: 25px;
+}
+
+.sec-two .child-four {
+    text-align: center;
+    position: absolute;
+    top: 520px;
+    left:900px ;
+    line-height: 25px;
+}
+
+
+.sec-two .child-five {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 480px;
+    left: 100px;
+}
+
+.sec-two .child-five .text {
+    position: absolute;
+    bottom: 320px;
+    left: 120px;
+    color: white;
+}
+
+/* end section 2 */
+/* start section 3 */
+
+.sec-three {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    margin-top: 400px;
+}
+
+.sec-three .child-one img {
+    width: 200px;
+}
+
+.sec-three .child-one {
+    position: absolute;
+    left: 300px;
+    top: 400px;
+    
+}
+
+.sec-three .child-two img {
+    width: 380px;
+    position: absolute;
+    left: 580px;
+    top: 300px;
+}
+
+.sec-three .child-two h3 {
+    position: absolute;
+    left: 700px;
+    top: 600px;
+}
+
+.sec-three .child-two p {
+    position: absolute;
+    left: 700px;
+    top: 640px;
+}
+
+.sec-three .child-two {
+    text-align: center;
+    left: 200px;
+    bottom: 300px;
+    
+}
+
+
+.sec-three .child-three img {
+    width: 200px;
+}
+
+.sec-three .child-three {
+    position: absolute;
+    left: 67%;
+    top: 420px;
+}
+
+/* end section 3 */
+/* start section 4 */
+
+.sec-four {
+   
+    
+    width: 100%;
+    position: relative;
+}
+
+.parent .child-one img {
+    padding-top: 0;
+    margin-top: 0;
+    
+}
+
+.parent .child-two  {
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    
+    
+}
+
+
+.parent .child-two .tawaam {
+    display: flex;
+    align-items: center;
+    
+}
+
+.parent .child-two .tawaam p {
+    margin-left: 10px;
+}
+
+.parent .child-two .tawaam button {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    padding:  12px  ;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    border-radius:10px; 
+}
+
+.parent .child-two .twinz button {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    padding:  12px ;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    border-radius: 10px; 
+}
+
+
+.parent .child-two .twinz {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+
+.parent .child-two .twinz p {
+    margin-left: 10px;
+}
+
+
+.parent .child-three {
+    display: flex;
+    position: absolute;
+    top: 490px;
+    left: 180px;
+    font-size: 32px;
+}
+
+.parent .child-three a {
+    color: white;
+    margin-left: 20px;
+}
+
+.parent .child-four {
+    position: absolute;
+    top: 550px;
+    left: 185px;
+    
+}
+
+.parent .child-four a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.parent .child-five img {
+    width: 50%;
+    position: absolute;
+    top: 70px;
+    left: 720px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
